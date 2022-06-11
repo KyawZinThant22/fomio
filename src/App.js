@@ -4,7 +4,7 @@ import Navbar from './Components/Navbar';
 
 function App() {
   return (
-    <div>
+    <div className='bg-primaryDark h-screen'>
       <Navbar/>
       <BrowserRouter>
         <Routes>
