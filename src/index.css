@@ -26,6 +26,10 @@ input:focus , textarea:focus{
   outline: none
 }
 
+.hoverNav{
+  @apply border-solid border-primary border-b-2
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
