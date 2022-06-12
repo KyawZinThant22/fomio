@@ -22,7 +22,7 @@ const handleDragStart = (e) => e.preventDefault();
     <div className="flex flex-col px-[10px] object-contain" key={item.alt}>
         <img
           src={item.img}
-          className=" lg:w-[500px] lg:h-[300px] w-[200px] h-[140px] rounded-[10px]"
+          className=" lg:w-[300px] lg:h-[200px] w-[200px] h-[140px] rounded-[10px]"
           alt={item.alt}
             onDragStart={handleDragStart}
         />

@@ -12,7 +12,7 @@ const Hero = () => {
       </SplitScreen>
 
       {/* divider */}
-      <div className="border hidden lg:flex border-solid border-t-[1px] md:w-[5rem] w-[3rem] mx-auto mt-[3rem] md:-mt-[9rem]"></div>
+      <div className="border hidden xl:mt-[2rem] lg:mt-[4rem] lg:flex border-solid border-t-[1px] md:w-[5rem] w-[3rem] mx-auto mt-[3rem] md:-mt-[9rem]"></div>
     </section>
   );
 };
