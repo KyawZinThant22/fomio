@@ -10,6 +10,9 @@ const Hero = () => {
         <HeroLeft />
         <HeroRight />
       </SplitScreen>
+
+      {/* divider */}
+      <div className="border border-solid border-t-[1px] md:w-[8rem] w-[3rem] mx-auto mt-[3rem] md:-mt-[9rem]"></div>
     </section>
   );
 };

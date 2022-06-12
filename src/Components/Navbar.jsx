@@ -8,14 +8,14 @@ const Navbar = () => {
       <a href="/">
         <img src={Fomio} alt="" className="w-[66px] md:w-[158px]" />
       </a>
-      <ul className="md:flex hidden gap-12 ">
+      <ul className="lg:flex hidden gap-12 ">
         {Nav.map((nav) => (
           <li key={nav.name} className="text-white text-xl hidden md:flex hover:text-primary ">
             <a className="cursor-pointer" href={nav.tag}>{nav.name}</a>
           </li>
         ))}
       </ul>
-      <button className="hidden md:flex px-6 py-2 border-solid border-2  hover:bg-primary text-primary border-primary rounded-lg text-xl">
+      <button className="hidden lg:flex px-6 py-2 border-solid border-2  hover:bg-primary text-primary hover:text-white border-primary rounded-lg text-xl">
         Contact Us
       </button>
     </nav>
