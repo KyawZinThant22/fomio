@@ -8,7 +8,7 @@ const HeroRight = () => {
     <>
       <img
         src={Girl}
-        className="hidden md:flex min-w-[113%]  md:-ml-[3rem] md:-mb-[8rem] xl:ml-[4rem]"
+        className="hidden md:flex xl:min-w-[113%] xl:-mt-[6rem] md:-ml-[3rem] md:-mb-[8rem] lg:ml-[4rem] "
         alt="her img"
       />
       <img src={her} 
