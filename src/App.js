@@ -1,7 +1,6 @@
 import './App.css';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Navbar from './Components/Navbar';
-import Hero from './Page/Hero';import { lazy } from 'react';
+import Hero from './Page/Hero';
 import Work from './Page/Work';
 
 function App() {
