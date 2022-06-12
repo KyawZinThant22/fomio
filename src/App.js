@@ -1,15 +1,14 @@
 import './App.css';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Navbar from './Components/Navbar';
+import Hero from './Page/Hero';
+import Work from './Page/Work';
 
 function App() {
   return (
-    <div>
+    <div className='bg-primaryDark min-h-screen overflow-hidden'>
       <Navbar/>
-      <BrowserRouter>
-        <Routes>
-        </Routes>
-      </BrowserRouter>
+      <Hero/>
+      <Work/>
     </div>
   );
 }
