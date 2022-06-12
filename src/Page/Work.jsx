@@ -7,7 +7,7 @@ const Work = () => {
 
 
   return (
-    <div className="h-screen xl:mt-12 lg:-mt-[-5rem]  " id="projects">
+    <div className="h-screen xl:mt-12 lg:-mt-[-5rem] xs:mt-[6rem] md:mt-[6rem] " id="projects">
       <div className="text-center space-y-4 ">
         <h1 className="text-primary text-5xl  font-bold">
           Our Work

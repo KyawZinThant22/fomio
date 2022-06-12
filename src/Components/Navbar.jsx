@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav className="container p-8 mx-auto flex items-center justify-between">
       <a href="/">
-        <img src={Fomio} alt="" className="w-[66px] md:w-[158px]" />
+        <img src={Fomio} alt="" className="w-[66px] sm:w-[120px] md:w-[158px]" />
       </a>
       <ul className="lg:flex hidden gap-12 ">
         {Nav.map((nav) => (

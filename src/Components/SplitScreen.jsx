@@ -4,7 +4,7 @@ const SplitScreen = ({children , leftWeight , RightWeight,}) => {
 
     const [ left , right ] = children;
   return (
-    <div className='flex flex-col-reverse xl:flex-row justify-between  '>
+    <div className='flex flex-col-reverse lg:flex-row justify-between  '>
         <div className={`flex-[${leftWeight}]`}>
             {left}
         </div>
