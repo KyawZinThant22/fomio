@@ -19,14 +19,13 @@ const Slider = ({ content , direction }) => {
 
 const handleDragStart = (e) => e.preventDefault();
   const items = content?.map((item) => [
-    <div className="flex flex-col px-[10px] object-contain" key={item.alt}>
+    <div className=" px-[10px] object-contain boz"  key={item.alt} >
         <img
           src={item.img}
           className=" lg:w-[300px] xl:w-[450px] sm:w-[300px] md:h-[150px] xl:h-[300px] lg:h-[200px] w-[200px] h-[140px] rounded-[10px]"
           alt={item.alt}
-            onDragStart={handleDragStart}
+          onDragStart={handleDragStart}
         />
-        <p></p>
     </div>
   ]);
 

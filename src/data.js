@@ -33,30 +33,37 @@ export const images = [
   {
     img: img1,
     alt: "webDesignBusiness",
+    box : `0px 25px 50px 0px #433CD726`
   },
   {
     img: img2,
     alt: "webDesignCircle",
+    box:"0px 25px 50px 0px #072AC826"
   },
   {
     img: img3,
     alt: "webDesignFood",
+    box:"0px 25px 50px 0px #F29F2A26"
   },
   {
     img: img4,
     alt: "webDesignMovie",
+    box : "0px 25px 50px 0px #00000026"
   },
   {
     img: img5,
     alt: "webDesignProduct",
+    box : "0px 25px 50px 0px #EB6A4226"
   },
   {
     img: img6,
     alt: "webDesignShoe",
+    box:"0px 25px 50px 0px #FF6F7E26"
   },
   {
     img : img7,
-    alt : "bank"
+    alt : "bank",
+    box:'0px 25px 50px 0px #D7487326'
   }
 ];
 
