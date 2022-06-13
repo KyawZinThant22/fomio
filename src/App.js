@@ -1,6 +1,7 @@
 import './App.css';
 import Navbar from './Components/Navbar';
 import Hero from './Page/Hero';
+import Service from './Page/Service';
 import Work from './Page/Work';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Navbar/>
       <Hero/>
       <Work/>
+      <Service/>
     </div>
   );
 }

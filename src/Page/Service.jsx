@@ -1,0 +1,20 @@
+import React from 'react'
+import { resolvePath } from 'react-router-dom'
+import Header from '../Components/Header'
+import ServiceCard from '../Components/ServiceCard'
+import { Services } from '../data'
+
+const Service = () => {
+  return (
+    <div className='xl:h-screen mb-12 lg:mt-[12rem] sm:mt-[5rem] container mx-auto ' id="services">
+        <Header title="Our Services" subTitle="We Offet best of the best"/>
+        <div className='mt-12 flex xs:flex-col sm:items-center lg:items-start md:flex-row lg:flex-row  justify-center gap-5 md:flex-wrap sm:flex-nowrap '>
+            {Services.map((services)=>(
+                <ServiceCard services={services} key={services.title}  />
+            ))}
+        </div>
+    </div>
+  )
+}
+
+export default Service

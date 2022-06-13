@@ -34,7 +34,14 @@ input:focus , textarea:focus{
   @apply border-solid border-primary border-b-2
 }
 
+.shadowF{
+  box-shadow: 0px 4px 20px 0px  #00000020 ;
+}
 
+.shadowE{
+  box-shadow: 0px 4px 30px 0px #FFFFFF40;
+
+}
 
 @tailwind base;
 @tailwind components;

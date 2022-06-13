@@ -1,24 +1,31 @@
 import React from "react";
+import Header from "../Components/Header";
 import Slider from "../Components/Slider";
-import  {images}  from "../data";
+import { images } from "../data";
 import { images2 } from "../data";
 
 const Work = () => {
-
-
   return (
-    <div className="h-screen xl:mt-12 lg:-mt-[-5rem] xs:mt-[6rem] md:mt-[6rem] " id="projects">
-      <div className="text-center space-y-4 ">
-        <h1 className="text-primary text-5xl  font-bold">
-          Our Work
-        </h1>
-        <p className="text-white text-lg">Things We've Made</p>
-      </div>
+    <div
+      className="xl:h-screen xl:mt-12 lg:-mt-[-5rem] xs:mt-[6rem] md:mt-[6rem] "
+      id="projects"
+    >
+        <Header title="Our Work" subTitle="Things We've Made" />
+      <div className=" mt-16 ">
+        <div className="hidden lg:flex flex-col">
+          <Slider content={images} direction="ltr" />
+        </div>
+        <div className="">
+          <Slider content={images2} direction="rtl" />
+        </div>
 
-      <div className=" mt-20 ">
-        <Slider content={images} direction="ltr" />
 
-        <Slider content={images2} direction="rtl" />
+        <div className="mt-12 mb-[5rem] text-center">
+          <button className="border-solid border-2 text-primary hover:text-white hover:bg-primary border-primary px-6 xl:text-2xl rounded-lg py-1">View All</button>
+        </div>
+
+      {/* divider */}
+      <div className="border  xl:mt-[2rem] lg:mt-[4rem] xl:flex border-solid border-t-[1px] md:w-[5rem] w-[3rem] mx-auto mt-[3rem] md:-mt-[9rem]"></div>
       </div>
     </div>
   );

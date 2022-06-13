@@ -5,23 +5,27 @@ import img4 from "./assets/webDesignMovie.jpg";
 import img5 from "./assets/webDesignProduct.jpg";
 import img6 from "./assets/shoe.png";
 import img7 from "./assets/bank.png";
+import diamond from "./assets/diamondIcon.svg"
+import Heart from "./assets/heartIcon.svg"
+import profile from "./assets/profileIcon.svg"
+import webIcon from "./assets/webAppIcon.svg"
 
 export const Nav = [
+  {
+    tag: "#",
+    name: "Home"
+  },
   {
     tag: "#projects",
     name: "Projects",
   },
   {
-    tag: "#pricing",
-    name: "Pricing",
-  },
-  {
-    tag: "#servics",
+    tag: "#services",
     name: "Services",
   },
   {
-    tag: "#aboutus",
-    name: "About Us",
+    tag: "#pricing",
+    name: "Pricing",
   },
 ];
 
@@ -84,6 +88,30 @@ export const images2 = [
     alt: "webDesignbusiness",
   },
 ];
+
+
+export const Services = [
+  {
+    icon : diamond,
+    title : 'Digital Design',
+    subTitle : "Some latest designs to build an outstanding website and make User Experience (UX) more interactive."
+  },
+  {
+    icon : Heart,
+    title : 'Awesome Support',
+    subTitle : "We do care about every clients and promise to make you satisfied with our final result based on the plan you chose."
+  },
+  {
+    icon : profile,
+    title : 'Profile Website',
+    subTitle : 'Everyone needs to show their presence online and that’s where we come in. We build aesthetic websites that match your desired profile.'
+  },
+  {
+    icon : webIcon,
+    title : "Dynamic Web Application",
+    subTitle : 'You don’t need to know code to start a business. We are here to help to start your venture with maximum support.'
+  }
+]
 
 
 // export default images2;
