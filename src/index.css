@@ -60,6 +60,10 @@ body::-webkit-scrollbar-thumb {
  /* filter: drop-shado(0px 25px 50px rgba(235, 106, 66, 0.15)); */
 }
 
+.profile{
+  @apply rounded-full w-[60px]
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
