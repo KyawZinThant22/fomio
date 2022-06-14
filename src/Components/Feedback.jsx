@@ -2,10 +2,10 @@ import { feedback } from "../data";
 import dot from "../assets/dot.png";
 const Feedback = () => {
   return (
-    <div className="h-screen mt-28 flex flex-col lg:flex-row  lg:w-[1300px] container sm:-w-[300px] mx-auto relative ">
+    <div className="h-screen mt-28 flex flex-col lg:flex-row  lg:w-[1300px] container sm:-w-[300px] xs-w-[361px] mx-auto relative ">
         {/* //left site */}
       <div>
-        <h1 className="text-white lg:text-5xl xl:text-6xl xs:text-2xl xs:w-[18rem] xs:text-center lg:text-start xs:mb-8 xs:mx-auto font-bold xl:w-[39rem] lg:w-[35rem] leading-[80px] lg:mb-6">
+        <h1 className="text-white lg:text-5xl xl:text-6xl xs:text-2xl xs:w-[18rem] xs:text-center lg:text-start xs:mb-8 xs:mx-auto font-bold xl:w-[39rem] lg:w-[3rem] leading-[80px] lg:mb-6">
           {feedback.title}
         </h1>
         <p className="text-white hidden lg:flex text-xl  leading-[30px] lg:w-[23rem] lg:mb-6">
@@ -64,14 +64,14 @@ const Feedback = () => {
         <img src={dot} className="absolute xs:top-[20rem]  md:top-[20rem] md:left-[30rem] xs:left-[16rem] lg:w-[187px] lg:left-[25rem] xs:w-[8rem]  sm:left-[21rem] sm:top-[18rem] lg:top-[22rem]" alt="" />
       </div>
 
-        <div className="xs:flex mt-12 items-center justify-center  space-x-8 lg:hidden ">
-            <h1 className="text-white text-xl xs:text-lg">We Support</h1>
+        <div className="xs:flex mt-12 items-center justify-center w-[361px] space-x-8 lg:hidden ">
+            <h1 className="text-white text-xl xs:text-sm">We Support</h1>
           <div className="flex items-center  ">
             {feedback.country.map((flag) => (
               <img
                 src={flag}
                 key={flag}
-                className="md:w-[50px] xs:w-[32px] -mr-[18px] border-solid border-white border-4 rounded-full"
+                className="md:w-[50px] xs:w-[40px] -mr-[18px] border-solid border-white border-4 rounded-full"
               />
             ))}
           </div>
