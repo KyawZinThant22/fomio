@@ -8,7 +8,7 @@ import { Services } from '../data'
 const Service = () => {
   return (
     <>
-    <div className='xl:h-screen mb-12 lg:mt-[12rem] xs:mt-[5rem] container mx-auto ' id="services">
+    <div className='xl:h-screen mb-12 lg:mt-[12rem] xs:mt-[5rem] md:mt-[7rem] container mx-auto ' id="services">
         <Header title="Our Services" subTitle="We Offet best of the best"/>
         <div className='mt-12 flex xs:flex-col sm:items-center lg:items-start md:flex-row lg:flex-row  justify-center gap-5 md:flex-wrap sm:flex-nowrap '>
             {Services.map((services)=>(

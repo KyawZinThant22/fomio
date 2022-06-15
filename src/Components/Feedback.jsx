@@ -5,7 +5,7 @@ const Feedback = () => {
     <div className="h-screen mt-28 flex flex-col lg:flex-row  lg:w-[1300px] container sm:-w-[300px] xs-w-[361px] mx-auto relative ">
         {/* //left site */}
       <div>
-        <h1 className="text-white lg:text-5xl xl:text-6xl xs:text-2xl xs:w-[18rem] xs:text-center lg:text-start xs:mb-8 xs:mx-auto font-bold xl:w-[39rem] lg:w-[3rem] leading-[80px] lg:mb-6">
+        <h1 className="text-white lg:text-5xl   xl:text-6xl xs:text-2xl xs:w-[18rem] xs:text-center lg:text-start xs:mb-8 xs:mx-auto font-bold xl:w-[39rem] lg:w-[30rem] leading-[80px] lg:mb-6">
           {feedback.title}
         </h1>
         <p className="text-white hidden lg:flex text-xl  leading-[30px] lg:w-[23rem] lg:mb-6">

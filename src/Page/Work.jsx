@@ -7,7 +7,7 @@ import { images2 } from "../data";
 const Work = () => {
   return (
     <div
-      className="xl:h-screen xl:mt-12 lg:-mt-[-5rem] xs:mt-[6rem] md:mt-[6rem] "
+      className="xl:h-screen xl:mt-12 lg:-mt-[-5rem] xs:mt-[6rem] md:mt-[4rem] "
       id="projects"
     >
         <Header title="Our Work" subTitle="Things We've Made" />
