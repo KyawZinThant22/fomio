@@ -158,7 +158,7 @@ export const feedback = {
 export const PriceCard = [
  {
     plan: "Budget",
-    price: "$749/proj",
+    price: "749/proj",
     body: "Start your online success with the least budget available of all time.",
     benefit: [
       "Single Page with unlimited section.",
@@ -178,7 +178,7 @@ export const PriceCard = [
   },
   {
     plan: "Premium",
-    price: "$999/proj",
+    price: "999/proj",
     body: "Priority support and multi web pages  to maximize your business.",
     benefit: [
      "1-3 Pages with unlimited section.",
@@ -196,7 +196,7 @@ export const PriceCard = [
   },
   {
     plan: "Enterprise",
-    price: "$4499/proj",
+    price: "4499/proj",
     body: "Most suitable for creative entrepreneurs and innovative companies",
     benefit: [
      "All from Premium Plan",

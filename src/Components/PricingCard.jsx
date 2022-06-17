@@ -7,7 +7,7 @@ const PricingCard = ({ card, color }) => {
     <div className={` ${color} md:w-[500px]  sm:w-[400px]  xs:mx-4 sm:mx-auto lg:mx-0 p-8 rounded-[10px]  priceCard`}>
       <div className="text-center space-y-6">
         <h1 className="text-4xl">{card.plan}</h1>
-        <h1 className="text-4xl">{card.price}</h1>
+        <h1 className="text-4xl">&#36;{card.price}</h1>
         <p className={` mx-auto leading-[30px]`} style={{width: `${card.bodyWidth}`}} >{card.body}</p>
         <button className="border-solid border-[2px] border-dark p-3 px-8  rounded-xl">Get Started</button>
       </div>

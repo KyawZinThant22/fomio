@@ -1,5 +1,6 @@
 import './App.css';
 import Navbar from './Components/Navbar';
+import Fquestions from './Page/Fquestions';
 import Hero from './Page/Hero';
 import Pricing from './Page/Pricing';
 import Service from './Page/Service';
@@ -13,6 +14,7 @@ function App() {
       <Work/>
       <Service/>
       <Pricing/>
+      <Fquestions/>
     </div>
   );
 }
