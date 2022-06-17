@@ -12,10 +12,10 @@ const Work = () => {
     >
         <Header title="Our Work" subTitle="Things We've Made" />
       <div className=" mt-16 ">
-        <div className="hidden lg:flex flex-col">
+        <div className=" flex-col">
           <Slider content={images} direction="ltr" />
         </div>
-        <div className="">
+        <div className="hidden lg:flex ">
           <Slider content={images2} direction="rtl" />
         </div>
 
