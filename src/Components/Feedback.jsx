@@ -2,7 +2,7 @@ import { feedback } from "../data";
 import dot from "../assets/dot.png";
 const Feedback = () => {
   return (
-    <div className=" mt-28 flex flex-col lg:flex-row  lg:w-[1300px] container sm:-w-[300px] xs-w-[361px] mx-auto relative ">
+    <div className=" mt-28 flex flex-col lg:flex-row  lg:w-[1300px] container sm:-w-[300px] xs-w-[361px] mx-auto relative " id="feedback">
         {/* //left site */}
       <div>
         <h1 className="text-white lg:text-5xl   xl:text-6xl xs:text-2xl xs:w-[18rem] xs:text-center lg:text-start xs:mb-8 xs:mx-auto font-bold xl:w-[39rem] lg:w-[30rem] leading-[80px] lg:mb-6">
