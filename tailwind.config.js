@@ -24,6 +24,8 @@ module.exports = {
         white: "#FFFFFF",
 
         black: "#000000",
+    
+        nonWhite : "rgba(183, 183, 183, 1)"
       },
     },
   },

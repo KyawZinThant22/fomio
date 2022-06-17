@@ -151,3 +151,67 @@ export const feedback = {
     time: "Laura , 12:31 PM",
   },
 };
+
+// pricing card
+
+
+export const PriceCard = [
+ {
+    plan: "Budget",
+    price: "$749/proj",
+    body: "Start your online success with the least budget available of all time.",
+    benefit: [
+      "Single Page with unlimited section.",
+      "Color theme is provided if the client doesn’t know what to choose.",
+      "Price is negotiable.",
+      "Payment with PayPal, Visa, Bank transfer.",
+      "Help & Support",
+    ],
+    nonBenefit :[
+
+      "Priority 24/7 support",
+      "Outstanding Design",
+      "Dynamic Websites",
+    ],
+    color : 'bg-dull',
+    bodyWidth : "16rem",
+    height : '904px',
+  },
+  {
+    plan: "Premium",
+    price: "$999/proj",
+    body: "Priority support and multi web pages  to maximize your business.",
+    benefit: [
+     "1-3 Pages with unlimited section.",
+     "Color theme is provided if the client doesn’t know what to choose.",
+     "Price is negotiable.",
+     "Payment with PayPal, Visa, Bank transfer.",
+     "Help & Support",
+     "Priority support",
+     "Outstanding Design",
+     "Priority Maintainance",
+     "Dynamic Pages"
+    ],
+    nonBenefit:[],
+    color : "bg-primary",
+    bodyWidth : "17rem"
+  },
+  {
+    plan: "Enterprise",
+    price: "$4499/proj",
+    body: "Most suitable for creative entrepreneurs and innovative companies",
+    benefit: [
+     "All from Premium Plan",
+     "15% Discount up to $250 for next projects or partner business.",
+     "Dynamic Web Application",
+     "Fastest Service compared to other plans",
+     "Desposit Plan is provided",
+     "Priority 24/7 support",
+     "Accept in different currencies",
+     "Other additional values"
+    ],
+    bodyWidth : "19rem",
+    color : "bg-white",
+    nonBenefit:[],
+  }
+]
