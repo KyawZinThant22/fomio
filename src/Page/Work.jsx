@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Header from "../Components/Header";
 import Slider from "../Components/Slider";
 import { images } from "../data";
@@ -21,7 +22,9 @@ const Work = () => {
 
 
         <div className="mt-12 mb-[5rem] text-center">
+          <Link to="/projects">
           <button className="border-solid border-2 text-primary hover:text-white hover:bg-primary border-primary px-6 xl:text-2xl rounded-lg py-1">View All</button>
+          </Link>
         </div>
 
       {/* divider */}

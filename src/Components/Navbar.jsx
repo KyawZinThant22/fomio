@@ -1,13 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Fomio from "../assets/fomioLogo.svg";
 import { Nav } from "../data";
 
 const Navbar = () => {
   return (
     <nav className="container p-8 mx-auto flex items-center justify-between">
-      <a href="/">
+      <Link to="/">
         <img src={Fomio} alt="" className="w-[66px] sm:w-[120px] md:w-[158px]" />
-      </a>
+      </Link>
       <ul className="lg:flex hidden gap-12 ">
         {Nav.map((nav) => (
           <li key={nav.name} className="text-white text-xl hidden md:flex hover:text-primary ">
