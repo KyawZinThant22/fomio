@@ -68,6 +68,18 @@ body::-webkit-scrollbar-thumb {
   @apply rounded-full w-[60px]
 }
 
+/* @media screen and (max-width : 800px) {
+    .Qcard{
+      width: 600px !important
+    }  
+}
+
+@media screen and (max-width : 600px) {
+  .Qcard{
+    width: 480px !important
+  }
+} */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

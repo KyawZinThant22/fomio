@@ -23,11 +23,11 @@ export const Nav = [
     name: "Home",
   },
   {
-    tag: "#projects",
+    tag: "#project",
     name: "Projects",
   },
   {
-    tag: "#services",
+    tag: "#service",
     name: "Services",
   },
   {
@@ -209,5 +209,35 @@ export const PriceCard = [
     bodyWidth : "19rem",
     color : "bg-white",
     nonBenefit:[],
+  }
+]
+
+
+export const QNA = [
+  {
+    question : "What makes Fomio different from others?",
+    answer : "Honestly, I also don’t know the answer and I don’t care about you, pal. This is just an example answer and don’t take serious, ok? So go back where you belong and I hope you found the answer. But I don’t really care, bruh.. You wonder why I just didn’t put Lorem Ipsum instead? ",
+    id : 1
+  },
+
+  {
+    question : "Can I have refund if I change my mind? ",
+    answer : "lorem inspum refund",
+    id: 2 
+  },
+  {
+    question : "Does domain purchase include in the payment?",
+    answer : "lorem inspum domain",
+    id : 3 ,
+  },
+  {
+    question : "How does the affiliate program work?",
+    answer : "lorem inspum program",
+    id : 4
+  },
+  {
+    question : "What will happen if my website went something wrong?",
+    answer : "lorem inspum wrong",
+    id:5
   }
 ]

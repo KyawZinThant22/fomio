@@ -4,7 +4,7 @@ import whiteCheck from "../assets/whiteCheck.png"
 
 const PricingCard = ({ card, color }) => {
   return (
-    <div className={` ${color} md:w-[500px]  sm:w-[400px]  xs:mx-4 sm:mx-auto lg:mx-0 p-8 rounded-[10px]  priceCard`} id="card">
+    <div className={` ${color} md:w-[500px]  sm:w-[400px]  xs:mx-4 sm:mx-auto lg:mx-0 p-8 rounded-[10px]  priceCard`} >
       <div className="text-center space-y-6">
         <h1 className="text-4xl">{card.plan}</h1>
         <h1 className="text-4xl">&#36;{card.price}</h1>

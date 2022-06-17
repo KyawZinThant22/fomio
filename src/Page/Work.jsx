@@ -8,14 +8,14 @@ const Work = () => {
   return (
     <div
       className="xl:h-screen xl:mt-12 lg:-mt-[-5rem] xs:mt-[6rem] md:mt-[4rem] "
-      id="projects"
+      id="project"
     >
         <Header title="Our Work" subTitle="Things We've Made" />
       <div className=" mt-16 ">
-        <div className=" flex-col">
+        <div className=" flex flex-col">
           <Slider content={images} direction="ltr" />
         </div>
-        <div className="hidden lg:flex ">
+        <div className="hidden lg:flex flex-col">
           <Slider content={images2} direction="rtl" />
         </div>
 

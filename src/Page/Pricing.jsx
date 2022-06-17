@@ -6,7 +6,7 @@ import king from "../assets/crown.svg";
 
 const Pricing = () => {
   return (
-    <div className="mt-[11rem]  mb-52 relative" id="pricing ">
+    <div className="mt-[11rem]  mb-52 relative" id="pricing">
       <div className="text-center space-y-6 ">
         <h1 className="lg:text-4xl md:text-3xl xs:text-xl font-bold text-white leading-[60px]">
           An Exceptional Service,{" "}

@@ -21,7 +21,7 @@ function App() {
       #projects,
       #card,
       #service,
-      #feedbac
+      #feedback
       #pricing`,{
         opacity: 0,
         interval :400,
