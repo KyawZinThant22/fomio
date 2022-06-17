@@ -20,8 +20,8 @@ const Pricing = () => {
       <img
         src={king}
         alt="crown"
-        className="absolute xl:flex hidden:md
-         left-[54rem]  top-[11rem]"
+        className="absolute lg:block hidden
+         xl:left-[54rem]  xl:top-[10rem] lg:left-[42rem] lg:top-[10rem]"
       />
 
       <div className="lg:mt-[10rem] xs:mt-[5rem] flex flex-col lg:flex-row lg:items-end md:items-center justify-center gap-4">
