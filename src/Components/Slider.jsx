@@ -37,7 +37,7 @@ const handleDragStart = (e) => e.preventDefault();
         items={items}
         autoPlay
         autoPlayDirection={direction}
-        autoPlayInterval={1500}
+        autoPlayInterval={2000}
         infinite
         disableButtonsControls
         disableDotsControls

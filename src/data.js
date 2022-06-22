@@ -19,6 +19,9 @@ import lura from "./assets/lura.png";
 import king from "./assets/king.png"
 import pig from "./assets/pig.png"
 import rocket from "./assets/rocket.png"
+import fb from "./assets/fbIcon.svg"
+import ig from "./assets/instagramIcon.svg"
+import mes from "./assets/messengerIcon.svg"
 
 export const Nav = [
   {
@@ -38,6 +41,36 @@ export const Nav = [
     name: "Pricing",
   },
 ];
+
+
+export const MobileNav = [
+  {
+    tag: "#",
+    name: "Home",
+  },
+  {
+    tag: "#project",
+    name: "Projects",
+  },
+  {
+    tag: "#service",
+    name: "Services",
+  },
+  {
+    tag: "#pricing",
+    name: "Pricing",
+  },
+  {
+    tag: "#contactUs",
+    name : "Contact Us"
+  },
+  {
+    tag : "About",
+    name : 'About'
+  }
+];
+
+export const socialIcon = [fb,ig,mes]
 
 export const images = [
   {
@@ -162,7 +195,7 @@ export const PriceCard = [
  {
    img: pig,
     plan: "Budget",
-    price: "749/proj",
+    price: "749",
     body: "Start with minimum price.",
     benefit: [
       "Single Page with unlimited section.",
@@ -177,7 +210,7 @@ export const PriceCard = [
   {
     img: king,
     plan: "Premium",
-    price: "999/proj",
+    price: "999",
     body: "Best value, Most popular",
     benefit: [
      "1-3 Pages with unlimited section.",
@@ -195,7 +228,7 @@ export const PriceCard = [
   {
     img: rocket,
     plan: "Enterprise",
-    price: "4499/proj",
+    price: "4499",
     body: "Potential starts here.",
     benefit: [
      "All features from Premium Plan",
