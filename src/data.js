@@ -16,6 +16,9 @@ import japan from "./assets/japan.png";
 import korea from "./assets/korea.png";
 import adrian from "./assets/adrian.png";
 import lura from "./assets/lura.png";
+import king from "./assets/king.png"
+import pig from "./assets/pig.png"
+import rocket from "./assets/rocket.png"
 
 export const Nav = [
   {
@@ -157,58 +160,54 @@ export const feedback = {
 
 export const PriceCard = [
  {
+   img: pig,
     plan: "Budget",
     price: "749/proj",
-    body: "Start your online success with the least budget available of all time.",
+    body: "Start with minimum price.",
     benefit: [
       "Single Page with unlimited section.",
       "Color theme is provided if the client doesn’t know what to choose.",
       "Price is negotiable.",
       "Help & Support",
     ],
-    nonBenefit :[
-
-      "Priority 24/7 support",
-      "Outstanding Design",
-      "Dynamic Websites",
-    ],
     color : 'bg-dull',
-    bodyWidth : "16rem",
-    height : '904px',
+    height : '650px',
+    borderColor : "border-nonWhite"
   },
   {
+    img: king,
     plan: "Premium",
     price: "999/proj",
-    body: "Priority support and multi web pages  to maximize your business.",
+    body: "Best value, Most popular",
     benefit: [
      "1-3 Pages with unlimited section.",
-     "Color theme is provided if the client doesn’t know what to choose.",
-     "Price is negotiable.",
-     "Help & Support",
-     "Priority support",
+     "All features from Budget plan.",
+     "Priority support & maintainance",
      "Outstanding Design",
-     "Priority Maintainance",
      "Dynamic Pages"
     ],
-    nonBenefit:[],
-    color : "bg-primary",
-    bodyWidth : "17rem"
+    color : "bg-dark",
+    height: '674px',
+    textColor : "text-white",
+    borderColor : "border-primary"
+
   },
   {
+    img: rocket,
     plan: "Enterprise",
     price: "4499/proj",
-    body: "Most suitable for creative entrepreneurs and innovative companies",
+    body: "Potential starts here.",
     benefit: [
-     "All from Premium Plan",
-     "15% Discount up to $250 for next projects or partner business.",
+     "All features from Premium Plan",
+     "15% Discount for future projects",
      "Dynamic Web Application",
      "Desposit Plan is provided",
-     "Priority 24/7 support",
-     "Accept in different currencies",
+      "Other additional values"
     ],
-    bodyWidth : "19rem",
-    color : "bg-white",
-    nonBenefit:[],
+    color : "bg-primary",
+    height: 'h-[645px]',
+    borderColor : "border-white"
+
   }
 ]
 

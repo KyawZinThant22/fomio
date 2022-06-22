@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Fomio from "../assets/fomioLogo.svg";
 import { Nav } from "../data";
 
 const Navbar = () => {
+  
+  const [toggleMenu , setToggleMenu] = useState(false);
+
   return (
     <nav className="container p-8 mx-auto flex items-center justify-between">
       <Link to="/">

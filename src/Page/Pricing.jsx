@@ -17,14 +17,9 @@ const Pricing = () => {
         </p>
       </div>
 
-      <img
-        src={king}
-        alt="crown"
-        className="absolute lg:block hidden
-         xl:left-[54rem]  xl:top-[10rem] lg:left-[42rem] lg:top-[10rem]"
-      />
+      
 
-      <div className="lg:mt-[10rem] xs:mt-[5rem] flex flex-col lg:flex-row lg:items-end md:items-center justify-center gap-4">
+      <div className="lg:mt-[8rem] xs:mt-[3rem] flex flex-col lg:flex-row  md:items-center justify-center space-y-4 lg:space-y-0 gap-1 pricingFont">
         {PriceCard.map((card) => (
           <PricingCard card={card} color={card.color} key={card.plan} />
         ))}
