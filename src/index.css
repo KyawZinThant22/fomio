@@ -91,9 +91,6 @@ body::-webkit-scrollbar-thumb {
   @apply text-primary text-xl lg:text-2xl
 }
 
-.contact-class{
-  @apply block p-3 rounded lg:w-[80%] w-full border border-solid border-nonWhite text-xl ;
-}
 
 
 
