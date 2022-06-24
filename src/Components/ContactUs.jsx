@@ -10,7 +10,7 @@ const ContactUs = () => {
                 <li className='flex items-center gap-8 text-white' key={contact.info}>
                     <img src={contact.icon} alt="icon" className='w-8 ' />
                     <a href={contact.link}>
-                    <span className='lg:text-2xl text-xl leading-tight'>{contact.info}</span>
+                    <span className='lg:text-2xl  text-2xl leading-tight'>{contact.info}</span>
                     </a>
                 </li>
             ))}

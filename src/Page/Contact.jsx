@@ -14,7 +14,7 @@ const Contact = () => {
             </h1>
         </div>
 
-        <div className='lg:w-[1300px] container mx-auto mt-12 lg:mt-[10rem]'>
+        <div className=' lg:w-[1300px] container mx-auto mt-12 lg:mt-[10rem]'>
         <SplitScreen leftWeight={1} RightWeight={1}>
             <ContactUs/>
             <ContactForm/>

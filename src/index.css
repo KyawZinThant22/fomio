@@ -92,7 +92,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .contact-class{
-  @apply block p-3 rounded lg:w-[80%] border border-solid border-nonWhite text-xl ;
+  @apply block p-3 rounded lg:w-[80%] w-full border border-solid border-nonWhite text-xl ;
 }
 
 
