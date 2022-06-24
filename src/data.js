@@ -22,6 +22,10 @@ import rocket from "./assets/rocket.png"
 import fb from "./assets/fbIcon.svg"
 import ig from "./assets/instagramIcon.svg"
 import mes from "./assets/messengerIcon.svg"
+import fbI from "./assets/facebook.png"
+import mail from "./assets/mail.png"
+import phone from "./assets/phone.png"
+import home from "./assets/home.png"
 
 export const Nav = [
   {
@@ -61,7 +65,7 @@ export const MobileNav = [
     name: "Pricing",
   },
   {
-    tag: "#contactUs",
+    tag: "#contact",
     name : "Contact Us"
   },
   {
@@ -271,5 +275,25 @@ export const QNA = [
     question : "What will happen if my website went something wrong?",
     answer : "lorem inspum wrong",
     id:5
+  }
+]
+
+export const ContactData = [
+  {
+    icon : phone,
+    info : "09407788533 , 09784419896"
+  },
+  {
+    icon : mail,
+    info : "kyawthant035@gmail.com"
+  },
+  {
+    icon : fbI,
+    info : "Fomio",
+    link : "https://www.facebook.com/Fomio26"
+  },
+  {
+    icon : home,
+    info : "102A x 62B Ta3/34"
   }
 ]

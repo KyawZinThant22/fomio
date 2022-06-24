@@ -1,18 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap');
 body {
   margin: 0;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande" 
+    "Lucida Sans", Arial, sans-serif !important;
 }
 
 html {
   scroll-behavior: smooth;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
+
 
 ul {
   list-style: none;
@@ -28,7 +25,7 @@ button:focus {
 
 input:focus,
 textarea:focus {
-  outline: none;
+ outline: 2px solid #08d9d6
 }
 
 .hoverNav {
@@ -72,6 +69,10 @@ body::-webkit-scrollbar-thumb {
   @apply rounded-full w-[60px];
 }
 
+.navbar{
+  transition: 0.5s ease;
+}
+
 .mobileNav{
      animation: tosmooth 1s linear;
 }
@@ -79,11 +80,19 @@ body::-webkit-scrollbar-thumb {
 @keyframes tosmooth {
     
     from {
-        transform: translateY(-200px);
+        transform: translateY(-100px);
     }to{
     transform: translateY(0);
          }
 
+}
+
+.ContactHeader{
+  @apply text-primary text-xl lg:text-2xl
+}
+
+.contact-class{
+  @apply block p-3 rounded lg:w-[80%] border border-solid border-nonWhite text-xl ;
 }
 
 

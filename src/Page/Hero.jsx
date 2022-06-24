@@ -6,7 +6,7 @@ import SplitScreen from "../Components/SplitScreen";
 const Hero = () => {
   return (
     <section className="container mx-auto md:p-8 z-0" id="hero">
-      <SplitScreen leftWeight={1} RightWeight={1} >
+      <SplitScreen leftWeight={1} RightWeight={1} reverse >
         <HeroLeft />
         <HeroRight />
       </SplitScreen>

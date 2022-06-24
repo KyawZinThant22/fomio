@@ -1,16 +1,11 @@
 import './App.css';
-import Navbar from './Components/Navbar';
-import Fquestions from './Page/Fquestions';
-import Hero from './Page/Hero';
-import Pricing from './Page/Pricing';
-import Service from './Page/Service';
-import Work from './Page/Work';
 import { useEffect } from 'react';
 import scrollreveal from 'scrollreveal';
 import Layout from './Components/Layout';
 import Home from './Page/Home';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import AllProjects from './Page/AllProjects';
+import ScrollToTop from './Components/ScrollToTop';
 function App() {
   useEffect(() => {
     const sr = scrollreveal({
@@ -37,6 +32,7 @@ function App() {
   },[])
   return (
     <div className='bg-primaryDark min-h-screen overflow-hidden'>
+      <ScrollToTop/>
        <BrowserRouter>
      <Layout>
           <Routes>

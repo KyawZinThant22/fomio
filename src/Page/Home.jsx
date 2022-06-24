@@ -1,4 +1,5 @@
 import React from 'react'
+import Contact from './Contact'
 import Fquestions from './Fquestions'
 import Hero from './Hero'
 import Pricing from './Pricing'
@@ -13,6 +14,7 @@ const Home = () => {
         <Service/>
         <Pricing/>
         <Fquestions/>
+        <Contact/>
     </>
   )
 }

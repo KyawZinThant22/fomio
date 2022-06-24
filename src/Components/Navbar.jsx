@@ -4,10 +4,24 @@ import Fomio from "../assets/fomioLogo.svg";
 import { Nav, socialIcon } from "../data";
 import { Divide as Hamburger } from "hamburger-react";
 const Navbar = () => {
-  const [toggleMenu, setToggleMenu] = useState(true);
+  const [toggleMenu, setToggleMenu] = useState(false);
+  const [visible, setVisible] = useState(false);
+
+  const toggleVisible = () => {
+    const scrolled = document.documentElement.scrollTop;
+    if (scrolled > 780) {
+      setVisible(true);
+    } else if (scrolled <= 500) {
+      setVisible(false);
+    }
+  };
+
+  window.addEventListener("scroll", toggleVisible);
+
+
 
   return (
-    <div className="container p-8 mx-auto flex items-center justify-between ">
+    <div className={`${!visible? "container p-8 mx-auto flex navbar items-center justify-between" : "bg-[#333]    z-50 flex items-center justify-between lg:py-5 navbar py-3 lg:px-28 px-12 w-full fixed top-0"} `}>
       <Link to="/">
         <img
           src={Fomio}
@@ -27,9 +41,11 @@ const Navbar = () => {
           </li>
         ))}
       </ul>
-      <button className="hidden lg:flex px-6 py-2 border-solid border-2  hover:bg-primary text-primary hover:text-white border-primary rounded-lg text-xl">
-        Contact Us
-      </button>
+      <a href="#contact">
+        <button className="hidden lg:flex px-6 py-2 border-solid border-2  hover:bg-primary text-primary hover:text-white border-primary rounded-lg text-xl">
+          Contact
+        </button>
+      </a>
       <div className="lg:hidden">
         <Hamburger
           color="#08d9d6"
