@@ -22,7 +22,7 @@ const handleDragStart = (e) => e.preventDefault();
     <div className=" px-[10px] object-contain boz"  key={item.alt} >
         <img
           src={item.img}
-          className=" lg:w-[300px] xl:w-[450px] sm:w-[400px] md:h-[250px] xl:h-[300px] lg:h-[200px] w-[450px] h-[250px] rounded-[10px]"
+          className=" lg:w-[300px] xl:w-[500px] sm:w-[400px] md:h-[250px] xl:h-[300px] lg:h-[200px] w-[450px] h-[250px] rounded-[10px]"
           alt={item.alt}
           onDragStart={handleDragStart}
         />

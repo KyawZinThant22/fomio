@@ -18,10 +18,14 @@ const Navbar = () => {
 
   window.addEventListener("scroll", toggleVisible);
 
-
-
   return (
-    <div className={`${!visible? "container p-8 mx-auto flex navbar items-center justify-between" : "bg-[#333]    z-50 flex items-center justify-between lg:py-5 navbar py-3 lg:px-28 px-12 w-full fixed top-0"} `}>
+    <div
+      className={`${
+        !visible
+          ? "container p-8 mx-auto flex navbar items-center justify-between"
+          : "bg-[#31374197]    z-50 flex items-center justify-between lg:py-5 navbar py-3 lg:px-28 px-12 w-full fixed top-0"
+      } `}
+    >
       <Link to="/">
         <img
           src={Fomio}
@@ -72,22 +76,32 @@ const Navbar = () => {
               />
             </div>
             <div className="border-solid border-t-[1px] border-primary mx-6 mb-4  "></div>
-            <ul className="flex flex-col items-start gap-6 px-12 ">
+            <ul className="flex flex-col items-start gap-6 px-12 relative ">
               {Nav.map((nav) => (
-                <li
-                  key={nav.name}
-                  className="text-white text-xl  hover:text-primary "
-                >
-                  <a className="cursor-pointer text-lg" href={nav.tag}>
-                    {nav.name}
-                  </a>
-                </li>
+                <>
+                  <li
+                    key={nav.name}
+                    className="text-white text-xl  hover:text-primary "
+                  >
+                    <a className="cursor-pointer text-lg" href={nav.tag}>
+                      {nav.name}
+                    </a>
+                  </li>
+                </>
               ))}
+
               <div className="flex gap-3 self-end">
                 {socialIcon.map((icon) => (
-                  <img src={icon} key={icon} alt="icon" />
+                  <>
+                    <img src={icon} key={icon} alt="icon" />
+                  </>
                 ))}
               </div>
+              <a href="#contact">
+                <button className="hover:bg-primary hover:text-white text-primary text-white absolute top-[205px] rounded-md border border-solid border-primary p-2">
+                  Contact
+                </button>
+              </a>
             </ul>
           </div>
         )}

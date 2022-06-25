@@ -1,3 +1,7 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap');
 body {
   margin: 0;
@@ -44,19 +48,26 @@ textarea:focus {
   box-shadow: 0px 25px 50px rgba(255, 255, 255, 0.07);
 }
 
-body::-webkit-scrollbar {
-  width: 1em;
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
 }
 
-body::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 6px #08d9d6;
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
 }
 
-body::-webkit-scrollbar-thumb {
-  background-color: #08d9d6;
-  outline: 1px solid slategrey;
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #08d9d6;
 }
 
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
 .pricingFont {
   font-family: 'Roboto', sans-serif;
 }
@@ -93,8 +104,43 @@ body::-webkit-scrollbar-thumb {
 
 
 
+/* .CardBtn:before, .CardBtn:after {
+        content:'';
+        position: absolute;
+        display: block;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+    
+    .CardBtn:before {
+        transform: translate3d(-100%, 0, 0);
+        background-color: white;
+        border: 1px solid white;
+        
+        transition: transform 300ms ease-in-cubic;
+    }
+    
+    .CardBtn:after {
+        background-color: #08D9D6;
+        color : black;
+        border: 1px solid #ffd1d8;
+        transform: translate3d(100%, 0, 0);
+        
+        transition: transform 300ms 300ms cubic-bezier(.16,.73,.58,.62);
+    }
+    
+    Car:hover {
+        &:before {
+            transform: translate3d(0,0,0);
+        }
+        
+        &:after {
+            transform: translate3d(0,0,0);
+        }
+    }
+} */
 
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
