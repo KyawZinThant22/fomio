@@ -10,7 +10,7 @@ const Contact = () => {
             <h1 className='uppercase text-primary lg:text-5xl text-3xl font-light '>Get In Touch</h1>
             <div className='border border-solid border-t-primary w-24  mx-auto'></div>
             <h1 className='text-white text-[1.2rem] lg:text-3xl leading-[40px] font-thin'>
-                Do not be confused with technical issues, contact MMS IT as soon <br className='hidden lg:block' /> as possible and contact us as soon as possible. 
+                Do not be confused with technical issues, contact Fomio as soon <br className='hidden lg:block' /> as possible and contact us as soon as possible. 
             </h1>
         </div>
 
