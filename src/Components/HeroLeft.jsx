@@ -1,5 +1,4 @@
 import React from "react";
-import explore from "../assets/explore.png";
 const HeroLeft = () => {
   return (
     <div className="mt-12 md:inline-block flex flex-col items-center ">
@@ -19,14 +18,13 @@ const HeroLeft = () => {
       </p>
       <div className=" space-x-8 items-center md:mt-24 mt-12 hidden lg:flex  ">
         <a href="tel:959407788533" className="">
-          <button className="bg-primary navbar md:px-8 md:py-3 lg:px-6 lg:py-1 lg:text-[18px] uppercase shadow hover:bg-white hover:text-primary  xl:px-8 xl:py-3 py-1 text-sm text-white md:text-2xl xl:text-2xl rounded-lg flex items-center gap-2 md:gap-4 ">
+          <button aria-label="call now btn" className="bg-primary navbar md:px-8 md:py-3 lg:px-6 lg:py-1 lg:text-[18px] uppercase shadow hover:bg-white hover:text-primary  xl:px-8 xl:py-3 py-1 text-sm text-white md:text-2xl xl:text-2xl rounded-lg flex items-center gap-2 md:gap-4 ">
             Call Now
           </button>
         </a>
 
-        {/* <img src={} alt="explore btn" className="md:text-2xl text-sm md:w-8 w-4 " />{" "} */}
         <a href="#contact">
-          <button className="text-white xl:text-2xl text-2xl lg:text-[18px] hidden md:flex hover:text-primary ">
+          <button aria-label="redirect to contact us button " className="text-white xl:text-2xl text-2xl lg:text-[18px] hidden md:flex hover:text-primary ">
             Get In Touch
           </button>
         </a>

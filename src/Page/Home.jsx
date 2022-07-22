@@ -2,7 +2,6 @@ import React from 'react'
 import Contact from './Contact'
 import Fquestions from './Fquestions'
 import Hero from './Hero'
-import Pricing from './Pricing'
 import Service from './Service'
 import Work from './Work'
 
@@ -12,7 +11,7 @@ const Home = () => {
         <Hero/>
         <Work/>
         <Service/>
-        <Pricing/>
+        {/* <Pricing/> */}
         <Fquestions/>
         <Contact/>
     </>

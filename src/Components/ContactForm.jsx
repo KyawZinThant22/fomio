@@ -71,6 +71,7 @@ const ContactForm = () => {
         ></textarea>
         <button
           type="submit"
+          aria-label="send message btn"
           className="bg-primary py-3 uppercase px-6   text-xl rounded text-white "
         >
           Send Message

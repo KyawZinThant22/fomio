@@ -1,5 +1,4 @@
 import React from 'react'
-import { resolvePath } from 'react-router-dom'
 import Feedback from '../Components/Feedback'
 import Header from '../Components/Header'
 import ServiceCard from '../Components/ServiceCard'

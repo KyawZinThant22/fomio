@@ -1,7 +1,6 @@
 import React from "react";
 
 const Header = ({ title, subTitle ,width}) => {
-  console.log(width);
   return (
     <>
       <div className="text-center space-y-4 ">

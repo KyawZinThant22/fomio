@@ -29,14 +29,14 @@ const Navbar = () => {
       <Link to="/">
         <img
           src={Fomio}
-          alt=""
+          alt="fomio logo"
           className="w-[66px] xs:w-[90px] md:w-[158px] "
         />
       </Link>
       <ul className="lg:flex hidden lg:flex-row  gap-12 ">
         {Nav.map((nav) => (
           <li
-            key={nav.name}
+            key={nav.tag}
             className="text-white text-xl  md:flex  hover:text-primary "
           >
             <a className="cursor-pointer" href={nav.tag}>
@@ -46,7 +46,7 @@ const Navbar = () => {
         ))}
       </ul>
       <a href="#contact">
-        <button className="hidden lg:flex px-6 py-2 border-solid border-2  hover:bg-primary text-primary hover:text-white border-primary rounded-lg text-xl">
+        <button aria-label="contact link button" className="hidden lg:flex px-6 py-2 border-solid border-2  hover:bg-primary text-primary hover:text-white border-primary rounded-lg text-xl">
           Contact
         </button>
       </a>
@@ -56,6 +56,7 @@ const Navbar = () => {
           size={25}
           toggle={() => setToggleMenu(!toggleMenu)}
           toggled={toggleMenu}
+          alt="humburger icon"
         />
         {toggleMenu && (
           <div className="bg-black w-full  flex flex-col pt-6   right-0 z-40 top-0 h-[23rem] absolute mobileNav ">
@@ -63,7 +64,7 @@ const Navbar = () => {
               <Link to="/">
                 <img
                   src={Fomio}
-                  alt=""
+                  alt="fomio logo"
                   className="w-[66px] xs:w-[90px] md:w-[158px] "
                 />
               </Link>
@@ -73,32 +74,29 @@ const Navbar = () => {
                 size={25}
                 toggle={() => setToggleMenu(!toggleMenu)}
                 toggled={toggleMenu}
+                alt="humburger icon"
               />
             </div>
             <div className="border-solid border-t-[1px] border-primary mx-6 mb-4  "></div>
             <ul className="flex flex-col items-start gap-6 px-12 relative ">
               {Nav.map((nav) => (
-                <>
                   <li
-                    key={nav.name}
+                    key={nav.tag}
                     className="text-white text-xl  hover:text-primary "
                   >
                     <a className="cursor-pointer text-lg" href={nav.tag}>
                       {nav.name}
                     </a>
                   </li>
-                </>
               ))}
 
               <div className="flex gap-3 self-end">
                 {socialIcon.map((icon) => (
-                  <>
-                    <img src={icon} key={icon} alt="icon" />
-                  </>
+                    <img src={icon.img} key={icon.img}  alt="icon" />
                 ))}
               </div>
               <a href="#contact">
-                <button className="hover:bg-primary hover:text-white text-primary text-white absolute top-[205px] rounded-md border border-solid border-primary p-2">
+                <button aria-label="contact us button link" className="hover:bg-primary hover:text-white text-primary  absolute top-[205px] rounded-md border border-solid border-primary p-2">
                   Contact
                 </button>
               </a>

@@ -4,7 +4,6 @@ import scrollreveal from 'scrollreveal';
 import Layout from './Components/Layout';
 import Home from './Page/Home';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import AllProjects from './Page/AllProjects';
 import ScrollToTop from './Components/ScrollToTop';
 function App() {
   useEffect(() => {

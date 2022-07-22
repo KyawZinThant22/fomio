@@ -9,7 +9,7 @@ const ContactUs = () => {
             {ContactData.map((contact)=>(
                 <li className='flex items-center gap-8 text-white' key={contact.info}>
                     <img src={contact.icon} alt="icon" className='w-8 ' />
-                    <a href={contact.link}>
+                    <a href={contact.link} className="hover:text-primary">
                     <span className='lg:text-2xl  text-xl leading-tight'>{contact.info}</span>
                     </a>
                 </li>

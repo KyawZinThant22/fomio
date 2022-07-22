@@ -41,8 +41,8 @@ export const Nav = [
     name: "Services",
   },
   {
-    tag: "#pricing",
-    name: "Pricing",
+    tag: "#questions",
+    name: "FAQ",
   },
 ];
 
@@ -61,8 +61,8 @@ export const MobileNav = [
     name: "Services",
   },
   {
-    tag: "#pricing",
-    name: "Pricing",
+    tag: "#questions",
+    name: "FAQ",
   },
   {
     tag: "#contact",
@@ -74,7 +74,7 @@ export const MobileNav = [
   }
 ];
 
-export const socialIcon = [fb,ig,mes]
+export const socialIcon = [{img:fb},{img:ig},{img:mes}]
 
 export const images = [
   {
@@ -252,28 +252,28 @@ export const PriceCard = [
 export const QNA = [
   {
     question : "What makes Fomio different from others?",
-    answer : "Honestly, I also don’t know the answer and I don’t care about you, pal. This is just an example answer and don’t take serious, ok? So go back where you belong and I hope you found the answer. But I don’t really care, bruh.. You wonder why I just didn’t put Lorem Ipsum instead? ",
+    answer : "Fomio is a Web Development freelance service which charge based on the clients where they came from. Our service is always affordable when compared to your local service.",
     id : 1
   },
 
   {
     question : "Can I have refund if I change my mind? ",
-    answer : "lorem inspum refund",
+    answer : "We do care about every clients. If you change your mind after 1 week when the final project is handed to you, we do not refund. But if you want to cancel the project while it’s being processed, you can. But you can’t do it again next time.",
     id: 2 
   },
   {
     question : "Does domain purchase include in the payment?",
-    answer : "lorem inspum domain",
+    answer : "No, you have to pay for it. It will be additional charge to you.",
     id : 3 ,
   },
   {
     question : "How does the affiliate program work?",
-    answer : "lorem inspum program",
+    answer : "When you offer someone our service and as soon as we  finish their project, you will get 7% commission.",
     id : 4
   },
   {
     question : "What will happen if my website went something wrong?",
-    answer : "lorem inspum wrong",
+    answer : "You can always request help via contact.fomio@gmail.com and our team will consider your request very carefully. If the issue is caused by our needs, we will prioritize to fix as soon as possible. But we DO NOT provide services when someone has made changes to our code without our permission.",
     id:5
   }
 ]

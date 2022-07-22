@@ -1,6 +1,5 @@
 import React from "react";
 import check from "../assets/checkIcon.svg";
-import whiteCheck from "../assets/whiteCheck.png";
 
 const PricingCard = ({ card, color }) => {
   const { textColor } = card;

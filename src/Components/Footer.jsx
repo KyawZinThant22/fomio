@@ -29,12 +29,12 @@ const Footer = () => {
       </div>
       <div className="grid grid-cols-3 xs:gap-6 md:gap-12 lg:gap-10 lg:gap-x-32">
         {footer.map((item) => (
-          <a
-            className="text-white lg:text-xl text-md font-light cursor-pointer"
+          <p
+            className="text-white lg:text-xl text-md font-light cursor-pointer hover:text-primary"
             key={item}
           >
             {item}
-          </a>
+          </p>
         ))}
       </div>
     </div>

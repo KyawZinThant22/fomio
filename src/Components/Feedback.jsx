@@ -18,6 +18,7 @@ const Feedback = () => {
               <img
                 src={flag}
                 key={flag}
+                alt="flag"
                 className="w-[60px]  -mr-[23px] border-solid border-white border-4 rounded-full"
               />
             ))}
@@ -27,13 +28,13 @@ const Feedback = () => {
         <img
           src={dot}
           className="absolute  xs:w-[8rem] lg:w-[187px] sm:left-[75px] xs:-top-[64px] xs:-left-[12px] lg:-top-[77px] lg:-left-[105px]"
-          alt=""
+          alt="dot dot"
         />
       </div>
       {/* //rigth side */}
       <div className="relative" >
         <div className="flex items-center space-x-6 ">
-          <img src={feedback.adrian.img} className="profile " alt="" />
+          <img src={feedback.adrian.img} className="profile " alt="adrian profile" />
           <div className="flex flex-col space-y-2">
             <div className="flex flex-col bg-white p-6 sm:text-[15px] lg:text-[20px] text-secondaryBlue rounded-tl-lg leading-[30px] rounded-r-lg ">
               <p>{feedback.adrian.text}</p>
@@ -43,7 +44,7 @@ const Feedback = () => {
         </div>
         
         <div className="flex flex-row-reverse items-center ml-[6rem] my-10  ">
-          <img src={feedback.lura.img} className="profile ml-6 " alt="" />
+          <img src={feedback.lura.img} className="profile ml-6 " alt="lura profile" />
           <div className="flex flex-col space-y-2">
             <div className="flex flex-col bg-primary px-[2rem] py-3  sm:text-[15px] lg:text-[20px] text-white xs:w-[16rem] md:w-[19rem] leading-[30px] rounded-tr-lg rounded-l-lg ">
               <p>{feedback.lura.text}</p>
@@ -53,7 +54,7 @@ const Feedback = () => {
         </div>
 
         <div className="flex items-center space-x-4 ">
-          <img src={feedback.adrian.img} className="profile " alt="" />
+          <img src={feedback.adrian.img} className="profile " alt="adrian profile" />
           <div className="flex flex-col space-y-2">
             <div className="flex flex-col bg-white px-[2rem] py-3 sm:text-[15px] lg:text-[20px] xs:w-[17rem] md:w-[19rem] text-secondaryBlue rounded-tl-lg leading-[30px] rounded-r-lg ">
               <p>{feedback.adrian.text2}</p>
@@ -71,6 +72,7 @@ const Feedback = () => {
               <img
                 src={flag}
                 key={flag}
+                alt="flat"
                 className="md:w-[50px] xs:w-[40px] -mr-[18px] border-solid border-white border-4 rounded-full"
               />
             ))}

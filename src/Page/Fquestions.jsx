@@ -7,7 +7,7 @@ import { QNA } from "../data";
 
 const Fquestions = () => {
   return (
-    <div className=" container mx-auto" id="questions">
+    <div className=" container lg:mt-36 mt-20 mx-auto" id="questions">
 
       <Header
         title="Frequently Asked Questions"

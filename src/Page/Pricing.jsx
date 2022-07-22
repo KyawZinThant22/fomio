@@ -1,8 +1,6 @@
 import React from "react";
-import Header from "../Components/Header";
 import PricingCard from "../Components/PricingCard";
 import { PriceCard } from "../data";
-import king from "../assets/crown.svg";
 
 const Pricing = () => {
   return (
